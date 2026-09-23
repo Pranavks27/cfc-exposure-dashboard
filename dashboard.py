@@ -14,7 +14,7 @@ import plotly.express as px
 import streamlit as st
 
 # ---------------- Config ----------------
-DATA_PATH = '/Users/pranav/Downloads/CFC'   # a detections.csv file, OR a folder with several
+DATA_PATH = '.'   # a detections.csv file, OR a folder with several
 SECONDS_PER_FRAME = 1.0                       # 1 fps extraction -> 1 second per frame
 
 st.set_page_config(page_title='CFC Logo Exposure', layout='wide')
